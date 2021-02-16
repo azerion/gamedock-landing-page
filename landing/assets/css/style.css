@@ -245,7 +245,7 @@ section {
 }
 
 .cta-section .btn {
-  background: #000000;
+  background: #222222;
   color: #fff;
 }
 
@@ -716,11 +716,13 @@ section {
 --------------------------------------------------------------*/
 .footer {
   padding: 5rem 0 2.5rem 0;
+  
 }
 
 .footer h3 {
   font-size: 18px;
   margin-bottom: 30px;
+  color: #818181;
 }
 
 .footer ul li {
@@ -728,7 +730,8 @@ section {
 }
 
 .footer a {
-  color: #000;
+  color: #818181;
+  text-decoration: underline;
 }
 
 .footer .copyright {
