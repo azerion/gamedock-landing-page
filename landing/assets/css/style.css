@@ -7,7 +7,7 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #9fa1a4;
+  color: #3e3e3e;
   line-height: 1.5;
 }
 
@@ -22,7 +22,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6, .font-heading {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Open Sans",Helvetica,Arial,Lucida,sans-serif;
   color: #000;
 }
 
@@ -68,9 +68,7 @@ section {
 .section-heading {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(-45deg,#9cc8e5, #5999c7);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #2d71a1;
 }
 
 /*--------------------------------------------------------------
@@ -110,7 +108,6 @@ section {
 .btn {
   border: none;
   padding: 15px 30px !important;
-  /* font-family: 'Work Sans', sans-serif; */
 }
 
 .btn.btn-outline-white {
@@ -177,7 +174,7 @@ section {
 }
 
 .feature-1 p {
-  color: #808080;
+  color: #3e3e3e;
 }
 
 /* Step */
@@ -356,12 +353,12 @@ section {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgb(156 200 229);
+  background: #222222;
 }
 
 #header.header-scrolled {
-  background: rgb(156 200 229);
-  height: 40px;
+  background: rgb(34 34 34);
+  height: 60px;
   color: #ffffff;
 }
 
@@ -414,7 +411,6 @@ section {
   font-size: 16px;
   font-weight: 400;
   color: rgba(255, 255, 255, 1);
-  text-shadow: 1px 1px 1px rgb(0, 118, 168, 0.65);
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -430,7 +426,7 @@ section {
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: rgba(0, 118, 168, 0.65);
+  color: rgba(0, 179, 255, 1);
 }
 
 .navbar .dropdown ul {
@@ -642,6 +638,7 @@ section {
   color: #0076a8;
   font-weight: 700;
   margin-bottom: 5px;
+  font-family: 'Work Sans',Helvetica,Arial,Lucida,sans-serif; ;
 }
 
 @media screen and (max-width: 992px) {
@@ -727,9 +724,7 @@ section {
 .footer h3 {
   font-size: 18px;
   margin-bottom: 30px;
-  background: linear-gradient(-45deg,#9cc8e5, #5999c7);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #2d71a1;
 }
 
 .footer ul li {
@@ -737,7 +732,7 @@ section {
 }
 
 .footer a {
-  color: #818181;
+  color: #3e3e3e;
 }
 
 .footer a:hover{
@@ -799,10 +794,8 @@ section {
 
 
 .feature-subtitle{
-  font-family: 'Work Sans';
-  background: linear-gradient(-45deg,#9cc8e5, #5999c7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+  color: #2d71a1;
 }
 
 .feature-description {
@@ -822,7 +815,7 @@ section {
 }
 
 .hero-subtitle{
-  font-family: 'Work Sans';
+  font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
 }
 
 @media screen and (max-width: 992px) {
